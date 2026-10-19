@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Criar Tenébrios em Casa | Guia Completo para Iniciantes</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+
+    <!-- HEADER / MENU DE NAVEGAÇÃO -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2">
+                <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+                    <i class="fa-solid fa-bug"></i>
+                </div>
+                <span class="text-lg sm:text-xl font-black text-brand-900 tracking-tight">Criação de Tenébrios</span>
+            </a>
+            
+            <!-- Menu Desktop -->
+            <nav class="hidden md:flex items-center gap-8 font-medium text-gray-600">
+                <a href="#beneficios" class="hover:text-brand-600 transition">Benefícios</a>
+                <a href="#video" class="hover:text-brand-600 transition">Apresentação</a>
+                <a href="#pratica" class="hover:text-brand-600 transition">Na Prática</a>
+                <a href="#faq" class="hover:text-brand-600 transition">Dúvidas (FAQ)</a>
+            </nav>
+
+            <div class="hidden sm:block">
+                <a href="https://pay.hotmart.com/F108083025X" target="_blank" class="bg-brand-600 hover:bg-brand-700 text-white font-bold px-5 py-2.5 rounded-xl shadow-lg shadow-brand-600/20 transition transform hover:-translate-y-0.5">
+                    Garantir Meu E-book
+                </a>
+            </div>
+
+            <!-- Botão Menu Mobile -->
+            <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Menu Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-4 space-y-3">
+            <a href="#beneficios" class="block text-gray-700 font-medium py-1">Benefícios</a>
+            <a href="#video" class="block text-gray-700 font-medium py-1">Apresentação</a>
+            <a href="#pratica" class="block text-gray-700 font-medium py-1">Na Prática</a>
+            <a href="#faq" class="block text-gray-700 font-medium py-1">Dúvidas (FAQ)</a>
+            <a href="https://pay.hotmart.com/F108083025X" target="_blank" class="block text-center bg-brand-600 text-white font-bold py-3 rounded-xl shadow mt-2">Garantir Meu E-book</a>
+        </div>
+    </header>
+
+    <!-- PRIMEIRA DOBRA -->
+    <section class="relative bg-gradient-to-br from-brand-50 via-white to-brand-100/50 py-16 lg:py-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Coluna de Textos -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-star text-amber-500"></i> Guia Definitivo & Passo a Passo
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 tracking-tight leading-tight">
+                        Como Criar <span class="text-brand-600">Tenébrios em Casa</span> com Lucro e Praticidade
+                    </h1>
+                    
+                    <p class="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0">
+                        O manual completo para iniciantes. Aprenda do zero a produzir larvas saudáveis para pesca, pássaros, animais exóticos ou consumo humano com baixo custo e alta eficiência.
+                    </p>
+
+                    <!-- Preço & Chamada -->
+                    <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <div class="text-center sm:text-left">
+                            <span class="block text-xs uppercase font-semibold text-gray-400 line-through">De R$ 45,90</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-sm font-bold text-brand-700">Por apenas</span>
+                                <span class="text-3xl sm:text-4xl font-black text-brand-800">R$ 32,90</span>
+                            </div>
+                        </div>
+                        <a href="https://pay.hotmart.com/F108083025X" target="_blank" class="w-full sm:w-auto bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-lg px-8 py-4 rounded-2xl shadow-xl shadow-brand-600/30 transition transform hover:scale-105 flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-cart-shopping"></i> Comprar E-book Agora
+                        </a>
+                    </div>
+
+                    <div class="flex items-center justify-center lg:justify-start gap-6 text-xs text-gray-500 pt-4 border-t border-gray-200/60">
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-brand-600"></i> Garantia de 7 Dias</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-bolt text-brand-600"></i> Acesso Imediato</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-file-pdf text-brand-600"></i> Formato E-book Digital</span>
+                    </div>
+                </div>
+
+                <!-- Coluna da Imagem da Capa -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative group">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-brand-600 to-emerald-400 rounded-3xl blur-lg opacity-35 group-hover:opacity-50 transition duration-300"></div>
+                        <img src="https://i.postimg.cc/sXJwbfMX/tenebrio-capa.png" alt="Capa do E-book Como Criar Tenébrios em Casa" class="relative w-72 sm:w-80 lg:w-[350px] h-auto rounded-2xl shadow-2xl transform transition duration-500 hover:scale-[1.02]">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- VÍDEO DE APRESENTAÇÃO (Assistir diretamente no site) -->
+    <section id="video" class="py-16 bg-white border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-2xl sm:text-3xl font-black text-gray-900 mb-3">Veja o Vídeo Explicativo</h2>
+            <p class="text-gray-600 mb-8 max-w-xl mx-auto">Descubra em poucos minutos como é simples iniciar a sua própria criação caseira de tenébrios.</p>
+            
+            <!-- Player incorporado corrigido -->
+            <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl bg-gray-900 border border-gray-200">
+                <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/4U8esfLx3m8?autoplay=0&rel=0&modestbranding=1" title="Como Criar Tenébrios em Casa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE BENEFÍCIOS -->
+    <section id="beneficios" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-600 font-bold uppercase tracking-widest text-xs">Vantagens do Guia</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mt-2">Por que adquirir este e-book?</h2>
+                <p class="text-gray-600 mt-3">Tudo o que você precisa dominar para ter uma produção abundante, limpa e sem odor.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center text-2xl mb-6 font-bold">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Passo a Passo Detalhado</h3>
+                    <p class="text-gray-600 leading-relaxed">Instruções claras desde a montagem das caixas criadoras, escolha correta do substrato, até a separação das fases da metamorfose (besouro, pupa e larva).</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center text-2xl mb-6 font-bold">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Baixo Custo & Alta Economia</h3>
+                    <p class="text-gray-600 leading-relaxed">Pare de gastar fortunas comprando porções prontas em pet shops. Crie em casa utilizando materiais acessíveis, casca de ovo e restos de vegetais.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center text-2xl mb-6 font-bold">
+                        <i class="fa-solid fa-feather"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Múltiplas Utilidades</h3>
+                    <p class="text-gray-600 leading-relaxed">Tenha sempre larvas ricas em proteína pura e nutrientes essenciais para alimentar seus pássaros, iscas vivas de alta qualidade para pesca ou consumo humano.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO NA PRÁTICA -->
+    <section id="pratica" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-600 font-bold uppercase tracking-widest text-xs">Galeria Visual</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mt-2">Veja na Prática o Processo de Criação</h2>
+                <p class="text-gray-600 mt-3">Acompanhe exemplos visuais claros das etapas, caixas e desenvolvimento das larvas.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Imagem 1 -->
+                <div class="bg-brand-50/50 p-4 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-center">
+                    <div class="w-full overflow-hidden rounded-2xl bg-white shadow-inner aspect-[4/3] flex items-center justify-center p-2">
+                        <img src="https://i.postimg.cc/6qT8rzR5/tenebrio-1.png" alt="Processo de Criação de Tenébrios 1" class="w-full h-full object-contain rounded-xl hover:scale-105 transition duration-300">
+                    </div>
+                    <p class="text-sm font-semibold text-gray-700 mt-4 text-center">Organização e Manejo das Caixas de Criação</p>
+                </div>
+
+                <!-- Imagem 2 -->
+                <div class="bg-brand-50/50 p-4 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-center">
+                    <div class="w-full overflow-hidden rounded-2xl bg-white shadow-inner aspect-[4/3] flex items-center justify-center p-2">
+                        <img src="https://i.postimg.cc/Bn2XBj8D/tenebrio-20.png" alt="Processo de Criação de Tenébrios 2" class="w-full h-full object-contain rounded-xl hover:scale-105 transition duration-300">
+                    </div>
+                    <p class="text-sm font-semibold text-gray-700 mt-4 text-center">Seleção e Alimentação Adequada das Larvas</p>
+                </div>
+
+                <!-- Imagem 3 -->
+                <div class="bg-brand-50/50 p-4 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-center">
+                    <div class="w-full overflow-hidden rounded-2xl bg-white shadow-inner aspect-[4/3] flex items-center justify-center p-2">
+                        <img src="https://i.postimg.cc/SsxR4VZb/tenebrios-21.png" alt="Processo de Criação de Tenébrios 3" class="w-full h-full object-contain rounded-xl hover:scale-105 transition duration-300">
+                    </div>
+                    <p class="text-sm font-semibold text-gray-700 mt-4 text-center">Colheita e Separação Eficiente do Substrato</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO FAQ (Perguntas Frequentes) -->
+    <section id="faq" class="py-20 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-brand-600 font-bold uppercase tracking-widest text-xs">Tire suas dúvidas</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mt-2">Perguntas Frequentes (FAQ)</h2>
+                <p class="text-gray-600 mt-3">Tudo o que você precisa saber sobre a criação de tenébrios respondido detalhadamente.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Pergunta 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> Como criar tenébrio gigante?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        O tenébrio gigante (<i>Zophobas morio</i>) requer um manejo ligeiramente diferente do molitor comum. No e-book você aprende a manter as larvas isoladas em pequenos recipientes para impedir que se transformem em pupas prematuramente, garantindo o máximo crescimento para atingirem o tamanho gigante desejado.
+                    </p>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> Como criar tenébrio molitor passo a passo?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        O processo envolve quatro fases principais: ovo, larva, pupa e besouro. Você monta uma caixa com substrato seco, introduz os besouros reprodutores, fornece vegetais para hidratação e acompanha o ciclo natural de reprodução ensinado detalhadamente no guia.
+                    </p>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> Como criar larvas para pesca?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        Tenébrios são excelentes iscas vivas por resistirem bastante tempo no anzol e atraírem peixes de água doce vorazmente. O guia ensina como mantê-las firmes, nutridas e no ponto ideal de tamanho para garantir pescarias produtivas.
+                    </p>
+                </div>
+
+                <!-- Pergunta 4 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> Como criar tenébrio para pássaros?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        Passes e aves silvestres ou exóticas adoram tenébrios, que funcionam como uma fonte natural de proteínas e gorduras saudáveis (ótimo para épocas de muda de penas e reprodução). O livro traz orientações sobre a quantidade ideal e higienização para os pets.
+                    </p>
+                </div>
+
+                <!-- Pergunta 5 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> Como criar tenébrios na casca de ovo?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        As cascas de ovos limpas e secas são excelentes abrigos e complementos minerais para os recipientes de criação, servindo de refúgio e facilitando o manejo na hora da colheita. O método é prático e explicado passo a passo no e-book.
+                    </p>
+                </div>
+
+                <!-- Pergunta 6 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> Qual o melhor substrato para criação de tenébrio?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        O melhor substrato combina farelo de trigo, aveia em flocos e farinha integral, servindo tanto de alimento seco quanto de habitat onde as larvas vivem enterradas. O guia mostra proporções exatas para evitar fungos.
+                    </p>
+                </div>
+
+                <!-- Pergunta 7 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> O que é o Tenebrio molitor?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        É a espécie de besouro cujas larvas são amplamente utilizadas em todo o mundo na avicultura, aquariofilia, pesca esportiva e alimentação sustentável devido ao seu alto valor nutricional e facilidade de criação.
+                    </p>
+                </div>
+
+                <!-- Pergunta 8 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60">
+                    <h3 class="font-bold text-lg text-gray-900 flex items-start gap-3">
+                        <span class="text-brand-600">P.</span> É possível fazer criação de tenébrio para consumo humano?
+                    </h3>
+                    <p class="text-gray-600 mt-2 pl-6">
+                        Sim! Insetos comestíveis são uma tendência mundial pela altíssima taxa de conversão proteica e sustentabilidade. O e-book aborda os cuidados estritos de higiene, assepsia e preparo para quem deseja introduzir a entomofagia com segurança.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION FINAL -->
+    <section class="py-20 bg-brand-900 text-white text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-4xl mx-auto px-4 relative z-10 space-y-6">
+            <h2 class="text-3xl sm:text-5xl font-black tracking-tight">Comece Sua Criação Hoje Mesmo!</h2>
+            <p class="text-brand-100 text-lg max-w-2xl mx-auto">Garanta o guia completo com desconto especial de lançamento e tenha acesso imediato a todo o conteúdo.</p>
+            <div class="pt-4">
+                <a href="https://pay.hotmart.com/F108083025X" target="_blank" class="inline-flex items-center gap-3 bg-brand-500 hover:bg-brand-400 text-brand-950 font-extrabold text-xl px-10 py-5 rounded-2xl shadow-2xl transition transform hover:scale-105">
+                    <i class="fa-solid fa-cart-shopping"></i> Comprar E-book por Apenas R$ 32,90
+                </a>
+            </div>
+            <p class="text-xs text-brand-200 pt-2"><i class="fa-solid fa-lock"></i> Pagamento 100% seguro via Hotmart • Garantia incondicional de 7 dias</p>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+            <div>
+                <p class="text-white font-bold text-lg">Como Criar Tenébrios em Casa</p>
+                <p class="text-xs text-gray-500 mt-1">Todos os direitos reservados © 2026.</p>
+            </div>
+            
+            <!-- Botão Voltar ao Início -->
+            <div>
+                <a href="#" class="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition shadow">
+                    <i class="fa-solid fa-arrow-up text-brand-400"></i> Voltar ao Início
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Menu Mobile Toggle -->
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Fechar menu mobile ao clicar em algum link
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
